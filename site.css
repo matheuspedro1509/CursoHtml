@@ -72,11 +72,8 @@ aside h1 {
 	font-size: 30px;
 	margin-bottom: 25px;
 }
-aside li{
+.items-redes-sociais li{
 	display: inline;
-}
-li{
-	display: inline-block;
 }
 strong {
 	font-weight: bold;
@@ -85,7 +82,28 @@ strong {
 em {
 	font-style: italic;
 }
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
 
 h2 {
 	font-size: 30px;
 }
+.navegacao-site {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+}
+
