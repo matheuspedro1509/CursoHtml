@@ -72,7 +72,12 @@ aside h1 {
 	font-size: 30px;
 	margin-bottom: 25px;
 }
-
+aside li{
+	display: inline;
+}
+li{
+	display: inline-block;
+}
 strong {
 	font-weight: bold;
 }
