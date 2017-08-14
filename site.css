@@ -16,6 +16,7 @@ main h1 {
 	padding: 25px;
 	border-bottom: 10px solid black;
 	font-size: 60px;
+	text-transform: uppercase;
 }
 
 p {
@@ -34,15 +35,19 @@ blockquote {
 aside {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
+	clear: right;
+	box-sizing: border-box;
 }
 
 footer {
 	background-color: #000;
 	color: #F2FFFC;
+	clear: both;
 }
 
 nav a {
 	color: #F2FFFC;
+	text-transform: lowercase;
 }
 
 main a {
@@ -90,6 +95,7 @@ article {
 
 h2 {
 	font-size: 30px;
+	clear: both;
 }
 .navegacao-site {
     background-color: #3C1D3D;
@@ -106,4 +112,43 @@ h2 {
     text-align: center;
     background-color: #E6E7E8;
 }
+
+.items-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+
+.github {
+    background-image: url(github.png);
+}
+
+.twitter {
+    background-image: url(twitter.png);
+}
+
+.linkedin {
+    background-image: url(linkedin.png);
+}
+.citacao-fiat{
+	float: right;
+}
+.citacao-petrobras{
+	float: left;
+}
+
+main{
+	width: 80%;
+	float: left;
+}
+img,aside{
+	width: 20%;
+	float: right;
+}
+
+.clearfix{
+	clear: both;
+}
+
 
